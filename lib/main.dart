@@ -34,7 +34,7 @@ class MyAppState extends State <MyApp> {
        primarySwatch: Colors.blue,
        ), //Theme Data
        home: Scaffold(appBar:
-       AppBar(title: Text('CRUCE'),),
+       AppBar(title: Image.asset('assets/img/cruce_bw.png'),),
          body: _pageOptions[_selectedPage],
          bottomNavigationBar: BottomNavigationBar(
            currentIndex: _selectedPage,
